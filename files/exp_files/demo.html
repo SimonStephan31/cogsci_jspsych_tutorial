@@ -73,11 +73,11 @@ var timeline = [];
 var preload = {
   type: jsPsychPreload,
   images: ['img/uni_org_color_li.png', 
-           'img/illustration.png', 
-           'img/N_32_025.png',
-           'img/N_32_075.png', 
-           'img/N_128_025.png', 
-           'img/N_128_075.png']
+           'img/illustration.PNG', 
+           'img/N_32_025.PNG',
+           'img/N_32_075.PNG', 
+           'img/N_128_025.PNG', 
+           'img/N_128_075.PNG']
 }
 timeline.push(preload);
 
@@ -195,7 +195,7 @@ var instruction = {
         A group of biologists working in a laboratory wants to find out whether certain chemicals (two different substances in total) cause particular genes (two different genes) to be expressed in mice.  
       </p>
 
-      <p style="text-align:center;"><img src="img/illustration.png" width = 50%></img></p>
+      <p style="text-align:center;"><img src="img/illustration.PNG" width = 50%></img></p>
 
       <p>They tested the effects of the two different chemicals on the two different genes in separate studies. 
         In each study, a different random sample of mice was injected with a different chemical and later examined to see how many mice expressed the studied gene. 
@@ -370,7 +370,7 @@ var test_N32_025 = {
         The biologists tested 32 mice in this study. The upper panel shows the mice injected with the chemical. The lower panel shows the untreated mice.
         </p>
 
-        <p style="text-align:center;"><img src="img/N_32_025.png" width = 50%></img></p>
+        <p style="text-align:center;"><img src="img/N_32_025.PNG" width = 50%></img></p>
     `, 
     on_finish: function(data){
         jsPsych.data.addProperties({rating_025: data.response.rating_N32_025}); 
@@ -395,7 +395,7 @@ var test_N32_075 = {
         The biologists tested 32 mice in this study. The upper panel shows the mice injected with the chemical. The lower panel shows the untreated mice.
       </p>
 
-      <p style="text-align:center;"><img src="img/N_32_075.png" width = 50%></img></p>
+      <p style="text-align:center;"><img src="img/N_32_075.PNG" width = 50%></img></p>
     `
   ,
   on_finish: function(data){
@@ -422,7 +422,7 @@ var test_N128_025 = {
       The biologists tested 128 mice in this study. The upper panel shows the mice injected with the chemical. The lower panel shows the untreated mice.
     </p>
 
-     <p style="text-align:center;"><img src="img/N_128_025.png" width = 50%></img></p>
+     <p style="text-align:center;"><img src="img/N_128_025.PNG" width = 50%></img></p>
     `
   ,
   on_finish: function(data){
@@ -449,7 +449,7 @@ var test_N128_075 = {
       The biologists tested 128 mice in this study. The upper panel shows the mice injected with the chemical. The lower panel shows the untreated mice.
     </p>
 
-    <p style="text-align:center;"><img src="img/N_128_075.png" width = 50%></img></p>
+    <p style="text-align:center;"><img src="img/N_128_075.PNG" width = 50%></img></p>
   `
   ,
   on_finish: function(data){
